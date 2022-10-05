@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+body {
+    
+}
+
+.container {
+    display: flex;
+    background-color: #ddd;
+    width: 170px;
+    margin: 90px 0 0 90px;
+    
+}
+
+.normal {
+    
+    background-color: #888;
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+.blue {
+    color: white;
+    background-color: blue;
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    margin: 10px;
+    box-shadow: 0 0 15px blue;
+}
+
+.red {
+    background-color: red;
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    margin: 10px;
+
+}
+
+.btnremove {
+    margin: 10px 0 0 0px;
+    width: 80px;
+    background-color: green;
+    color: azure;
+    transition: all 500ms ease-in-out;
+}
+
+.btnadd {
+    margin: 10px 0 0 94px;
+    width: 80px;
+    background-color: green;
+    color: azure;
+    transition: all 500ms ease-in-out;
+}
+
+button:hover {
+    background-color: greenyellow;
+    color: black;
+    transform: scale(1.2);
+}
