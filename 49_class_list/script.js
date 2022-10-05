@@ -14,8 +14,6 @@ function removeClass(){
 
 function addClass(){
     let blue = document.querySelector('#cubo');
-    blue.classList.add('blue');
-    
-
+    blue.classList.add('blue'); 
 }
 
