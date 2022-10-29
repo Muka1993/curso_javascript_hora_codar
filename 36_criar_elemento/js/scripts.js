@@ -26,3 +26,11 @@ el.appendChild(document.createTextNode("texto do span"));
 console.log(el);
 
 container.appendChild(el);
+
+// inserindo um h3
+
+let nome = document.createElement('h3');
+
+nome.appendChild(document.createTextNode('Samuel Candido'));
+
+body.appendChild(nome);
