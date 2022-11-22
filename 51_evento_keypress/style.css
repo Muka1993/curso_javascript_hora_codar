@@ -1,0 +1,13 @@
+@charset 'UTF-8';
+
+div {
+    color: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 900;
+    text-shadow: 0 0 1px black;
+}
+
+.enviado {
+    border: 1px solid blue;
+}
