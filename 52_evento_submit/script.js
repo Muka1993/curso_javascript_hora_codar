@@ -13,8 +13,8 @@ form.addEventListener('submit', function(evento) {
             item.classList.add('erro');
             isvalid = false;
          }else {
-            item.classList.remove('erro');
-         } 
+            item.classList.remove('erro');  
+         }   
       }
     }
     console.log(isvalid);
